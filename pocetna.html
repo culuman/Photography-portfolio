@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- NASLOV -->
+    <title>Nikola Photo</title>
+    <!-- OPIS -->
+    <meta
+      name="description"
+      content="Fotografisanje portreta, vencanja, rodjendana, pejzaza, prirode, i jos mnogo toga uz visok kvalitet i nisku cenu."
+    />
+    <!-- KLJUCNE RECI -->
+    <meta
+      name="keywords"
+      content="foto, fotografisanje, fotografija, fotografije, fotografer, photo, photography, photographer, photos"
+    />
+    <!-- AUTOR -->
+    <meta name="author" content="Nikola Culuman" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="checkCookie()">
+    <nav>
+      <div class="kontejner navKontejner">
+        <a href="pocetna.html" class="logo"
+          ><img src="slike/logo.png" alt="logo"
+        /></a>
+        <ul class="navLinkovi">
+          <li>
+            <a href="pocetna.html"
+              ><img src="slike/pocetna.png" alt="pocetna"
+            /></a>
+          </li>
+          <li>
+            <a href="galerija.html "
+              ><img src="slike/galerija.png" alt="galerija"
+            /></a>
+          </li>
+          <li>
+            <a href="omeni.html"><img src="slike/omeni.png" alt="omeni" /></a>
+          </li>
+          <li>
+            <a href="kontakt.html"
+              ><img src="slike/kontakt.png" alt="kontakt"
+            /></a>
+          </li>
+        </ul>
+        <button class="navMeni" id="otvoren">
+          <img src="slike/hamburger.png" alt="hamburger-ikonica" />
+        </button>
+        <button class="navMeni" id="zatvoren">
+          <img src="slike/xicon.png" alt="zatvori-ikonica" />
+        </button>
+      </div>
+    </nav>
+
+    <div class="slajder">
+      <div class="slajdovi">
+        <img src="slike/slika10.png" alt="slajd1" />
+      </div>
+      <div class="slajdovi">
+        <img src="slike/slika11.png" alt="slajd2" />
+      </div>
+      <div class="slajdovi">
+        <img src="slike/slika17.jpg" alt="slajd3" />
+      </div>
+    </div>
+
+    <header id="header">
+      <div class="kontejner headerKontejner">
+        <div class="levo">
+          <div class="headerSlika">
+            <img src="slike/slika8.png" alt="ajfelov-toranj" />
+          </div>
+        </div>
+        <div class="desno">
+          <h1>NikolaPhoto</h1>
+          <br />
+          <p>
+            Trudim se da ljudima ulepsam i docaram svet i stvari koje ih
+            okruzuju kroz sociva svoje kamere.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <footer>
+      <div class="kontejner footerKontejner">
+        <div class="footer">
+          <h2 class="footerNaslov">kontakt@nikolaphoto.com</h2>
+        </div>
+        <ul class="footerLinkovi">
+          <li><a href="pocetna.html">Pocetna</a></li>
+          <li><a href="galerija.html ">Galerija</a></li>
+          <li><a href="omeni.html">O meni</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="mapa.html">Mapa</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="hamburger.js"></script>
+    <script src="tema.js"></script>
+  </body>
+</html>

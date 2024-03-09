@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- NASLOV -->
+    <title>O meni</title>
+    <!-- OPIS -->
+    <meta
+      name="description"
+      content="Fotografisanje portreta, vencanja, rodjendana, pejzaza, prirode, i jos mnogo toga uz visok kvalitet i nisku cenu."
+    />
+    <!-- KLJUCNE RECI -->
+    <meta
+      name="keywords"
+      content="foto, fotografisanje, fotografija, fotografije, fotografer, photo, photography, photographer, photos"
+    />
+    <!-- AUTOR -->
+    <meta name="author" content="Nikola Culuman" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="checkCookie()">
+    <nav>
+      <div class="kontejner navKontejner">
+        <a href="pocetna.html" class="logo"
+          ><img src="slike/logo.png" alt="logo"
+        /></a>
+        <ul class="navLinkovi">
+          <li>
+            <a href="pocetna.html"
+              ><img src="slike/pocetna.png" alt="pocetna"
+            /></a>
+          </li>
+          <li>
+            <a href="galerija.html "
+              ><img src="slike/galerija.png" alt="galerija"
+            /></a>
+          </li>
+          <li>
+            <a href="omeni.html"><img src="slike/omeni.png" alt="omeni" /></a>
+          </li>
+          <li>
+            <a href="kontakt.html"
+              ><img src="slike/kontakt.png" alt="kontakt"
+            /></a>
+          </li>
+        </ul>
+        <button class="navMeni" id="otvoren">
+          <img src="slike/hamburger.png" alt="hamburger-ikonica" />
+        </button>
+        <button class="navMeni" id="zatvoren">
+          <img src="slike/xicon.png" alt="zatvori-ikonica" />
+        </button>
+      </div>
+    </nav>
+
+    <div class="kontejner omeniKontejner">
+      <h2 class="naslov">Nesto <br />o meni</h2>
+      <div class="omeniLevo">
+        <div class="omeniSlika">
+          <div class="slikaIza"></div>
+          <div class="slikaVelika">
+            <img src="slike/slika18.jpg" alt="fotografer" />
+          </div>
+          <div class="slikaMala">
+            <img src="slike/slika18.jpg" alt="fotografer" />
+          </div>
+        </div>
+      </div>
+      <div class="omeniDesno">
+        <p>
+          Zovem se Nikola, imam 21 godinu i studiram softversko inzenjerstvo u
+          Zrenjaninu.
+        </p>
+        <p>
+          Fotografijom se bavim kao hobi od 2019. godine. Sve je pocelo kada me
+          je drugar iz srednje skole upoznao sa svojom kamerom, pokazao mi neke
+          od svojih radova i na taj nacin zainteresovao da i sam probam.
+        </p>
+        <p>
+          Ljubav prema fotografiji me je odvela na razna mesta i upoznala sa
+          mnogim dobrim ljudima, ali takodje i pomogla da sve te lepe trenutke
+          zabelezim zauvek.
+        </p>
+        <br />
+        <div id="ajax">
+          <button class="ajaxDugme" onclick="prikaziOpremu()">
+            Moja oprema
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="kontejner footerKontejner">
+        <div class="footer">
+          <h2 class="footerNaslov">kontakt@nikolaphoto.com</h2>
+        </div>
+        <ul class="footerLinkovi">
+          <li><a href="pocetna.html">Pocetna</a></li>
+          <li><a href="galerija.html ">Galerija</a></li>
+          <li><a href="omeni.html">O meni</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="mapa.html">Mapa</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="hamburger.js"></script>
+    <script src="tema.js"></script>
+  </body>
+</html>
